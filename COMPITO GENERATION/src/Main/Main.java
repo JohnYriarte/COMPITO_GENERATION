@@ -8,7 +8,7 @@ public class Main {
 	public static void controlloMatricola(ArrayList<Studente> studenti, Studente nuovoStudente) {
 		for (Studente studente : studenti) {
 			if (studente.getMatricola() == nuovoStudente.getMatricola()) {
-				System.out.println("Matriola gia esistente");
+				System.out.println("Matricola gia esistente");
 				return;
 			}
 		}
